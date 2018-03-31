@@ -1,0 +1,16 @@
+
+Link: https://www.youtube.com/watch?v=LEkTx9AAV2E
+
+
+Substance -> suite of tools for procedural texturing, supports scan-based data as well
+
+Prior to 2018.1, susbtance was natively integrated into Unity, now it is a plugin
+
+Unity substance plugin will be part of the asset store
+LiveLink is a link to substance painter, 3d painter package, bidirectional realtime flow between authoring and unity
+
+Substance designer creates substance materials, exported to a propietary format, with configurable parameters
+
+Substance source is an online PBR material source
+
+a substance material contains scriptable objects sub-assets with procedural parameters
