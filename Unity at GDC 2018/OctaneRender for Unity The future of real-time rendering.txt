@@ -1,0 +1,26 @@
+Link: https://www.youtube.com/watch?v=XkSTz7oXUQY
+
+Otoy´s mission is to democratie holographic rendering
+
+Octane 4 is very recent, focused on real-time
+
+Octane light map baking on unity
+
+Brigade unity integration will come in 2018
+
+Octane 4 is really focused on AI, with Scene AI, Light AI, and a AI denoiser
+
+AI light -> less noise through better ray direction prediction
+
+open shader language
+
+Otoy Holoraphic workflow
+1 - Capture (with lighstage)
+2 - Render (with Octane)
+3 - Stream (with ORBX Media player)
+
+RNDR SDK
+
+cross-platform backend
+
+RNDR standard runtime library has access to Brigade, ORBX + Octane Render APIs, light field, XR, streaming and codecs

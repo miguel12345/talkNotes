@@ -13,4 +13,4 @@ Substance designer creates substance materials, exported to a propietary format,
 
 Substance source is an online PBR material source
 
-a substance material contains scriptable objects sub-assets with procedural parameters
+a substance material contains scriptable objects sub-assets with procedural parameters 
