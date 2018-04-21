@@ -1,0 +1,72 @@
+
+Link: https://www.youtube.com/watch?v=kwnb9Clh2Is
+
+
+Motivation
+
+Performance by default, easier to write high performance code in Unity
+
+single-threading performance is not increasing
+
+instead, we are getting more and more cores
+
+multi-threading is hard and requires a lot of work to manage. also, context switching is heavy
+
+easy to create race conditions, i.e. multiple threads accessing the same data
+
+
+Job system
+
+Job is a small unit of work
+One thread per job queue
+A job can depend on other jobs: this means that it only starts after all dependencies are done
+
+Benefits
+
+- No race conditions
+- Job accesses only a copy of the data
+- automatically scheduled optimally
+
+
+NativeContainer
+- new containers ideal for performance. Unmanaged allocation of memory
+- leak errors and ownership detection through sentinels
+
+Allocation types
+
+- Persistent, TempJob, and temp (long-lived, job-scoped, and function-scoped)
+
+NativeContainers
+
+- Lists, queues, hash maps, etc
+
+Two types of jobs
+
+- Single job, or IJobParallelFor, for multiple instances in parallel
+
+
+Flow
+
+1 - Create a job handle
+2 - Schedule it (number of executions, batch count, dependencies)
+3 - Wait for the current job handle to complete
+4 - Go to step 1
+
+
+Job system integrations with other systems
+- TransformAccessArray, IJobParallelForTransform
+- Batch physics raycasts
+- NavMesh
+
+
+Burst is a special compiler to generate highly optimized machine code from a C# code subset
+
+Entity Component system
+
+Entity is a handle for a collection of components
+Components only hold data
+Systems operate on sets of components
+
+
+
+
