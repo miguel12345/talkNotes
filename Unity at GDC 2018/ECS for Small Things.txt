@@ -1,0 +1,58 @@
+
+Link: https://www.youtube.com/watch?v=EWVU6cFdmr0
+
+
+ECS
+
+Performance by default
+Scalability by default
+
+Data oriented design
+
+
+Unity for small things, small footprint
+
+
+ECS
+
+Entities
+	set of components
+
+Components
+	Data holders
+
+Systems
+	Operate on data in components
+
+
+
+The game loop is just a bunch of systems
+
+Asset Loading
+Player input
+...
+Rendering
+
+
+Each system does one, extremely simple thing and they can be easily parallelized
+
+
+ECS bullet example
+
+Bullet -> resource entity
+
+Bullet prototype (instance of a bullet?)
+
+Bullet systems
+- Shooting
+- Collision
+- Damage
+- Cleanup
+- Audio
+- Rendering
+
+
+Components can be created directly inside the editor
+
+basically the point is to support a embedded runtime that can be used in a variety of contexts
+
