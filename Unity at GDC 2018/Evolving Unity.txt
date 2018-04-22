@@ -1,0 +1,32 @@
+
+Link: https://www.youtube.com/watch?v=aFFLEiDr3T0
+
+Once again, performance by default
+
+Game objects and components are laid out randomly in memory
+
+ECS and the job system are all about data layout
+
+Components of performance
+
+Data layout
+Multi-core
+Burst
+
+C# jobs use a subset of high-performance C#
+
+Instantiation is now basically free with ECS
+
+
+The importance of a sandbox
+	Simple & safe, with good feedback for errors
+	this principle applies to multi threading
+	by avoiding race conditions
+
+Unification (one way of writing code)
+Unify engine and game code
+Scalable runtime
+
+
+Iteration time is super important
+Determinism is built as a core principle

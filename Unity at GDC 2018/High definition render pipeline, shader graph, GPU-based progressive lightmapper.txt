@@ -1,0 +1,27 @@
+
+Link: https://www.youtube.com/watch?v=nOpx2xuMSFY
+
+
+
+Photogrammetry
+Quixel mega scans
+
+
+HD render pipeline
+
+Physically accurate
+Unified (opaque, decals, volumetrics)
+Predictable
+Configurable
+Performant
+
+
+Lighting
+Talking about PBR shading, most notable improvement is the supposed use of physical quantities everywhere
+
+Area lights
+
+
+Debug windows
+
+Lightning, normals, etc
